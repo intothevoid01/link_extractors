@@ -1,3 +1,5 @@
+
+
 function getJsonFromUrl() {
   var query = location.search.substr(1);
   var result = {};
@@ -12,7 +14,8 @@ function getJsonFromUrl() {
 g = getJsonFromUrl()
 
 
-outputParameters
+//outputParameters( )
+
 // takes g and outputs all pramas
 for (var key in g) {
     if (p.hasOwnProperty(key)) {
